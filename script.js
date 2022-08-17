@@ -35,7 +35,8 @@ botonReserva.addEventListener('click', () =>{
         contenedorUno.innerHTML += `
         <div class="card" id="user${indice}" style="width: 18rem;margin:10px;">
                 <div class="card-body">
-                    <h5 class="card-title">${usuarioN.nombre}</h5>
+                <h5> !! Felicitaciones Usted Reservo una cabaña </h5>
+                    <h5 class="card-title"> a nombre de : ${usuarioN.nombre}</h5>
                     <p class="card-text">${usuarioN.email}</p>
                 </div>
             </div>
