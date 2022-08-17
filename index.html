@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <form id="formulario">
+
+        <fieldset>
+            <legend>Bienvenido</legend>
+
+            <label class="labelUno">Seleccione su cabaña =></label>
+
+            <select name="selector" id="seleccion">
+                <option value="cabaña1">Cabaña 1</option>
+                <option value="cabaña2">Cabaña 2</option>
+                <option value="cabaña3">Cabaña 3</option>
+                <option value="cabaña4">Cabaña 4</option>           
+           </select> 
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Ingrese sus datos</legend>
+            <label for="nombre"  class="labelUno">Ingrese su nombre</label><br><br>
+            <input type="text" id="nombre"><br><br>
+
+            <label for="numero"  class="labelUno">Ingrese su numero de telefono</label><br><br>
+            <input type="text" id="numero"><br><br>
+
+            <label for="email"  class="labelUno">Ingrese su email</label><br><br>
+            <input type="email" id="email"><br><br>
+
+            <button type="submit" class="boton">Reservar</button>
+        </fieldset>
+    </form>
+
+    <div class="observador">
+        <button id="botonReserva">Mostrar Reserva</button>
+        <div id="contenedorUno"></div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

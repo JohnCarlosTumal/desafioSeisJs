@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+
+legend{
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    color: red;
+}
+
+.labelUno{
+    display: inline;
+}
+
+.observador{
+    display: block;
+    text-align: center;
+}
+
+/* #contenedorUno{
+    background-color: brown;
+    display: inline-block;
+    border-radius: 15px;
+} */
